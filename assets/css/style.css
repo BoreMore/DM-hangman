@@ -1,0 +1,87 @@
+div {
+    text-align: center;
+}
+h1 {
+    color: white;
+    font-family: "arial black";
+}
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #222;
+    color: white;
+    font-family: "arial black";
+}
+.panel {
+    word-break: break-word;
+}
+.panel-body {
+    font-size: 20px;
+    font-family: "arial black";
+    color: #222;
+}
+#newGameButton {
+    display: none;
+    background-color: #222;
+    color: white;
+}
+#newGameButton:hover {
+    display: none;
+    background-color: whitesmoke;
+    color: #222;
+}
+#newGameButton:active {
+    display: none;
+    background-color: black;
+    color: whitesmoke;
+}
+#backgroundImg {
+    height: 294px;
+    background-image: url("images/DMlogo.jpg");
+    background-size: 553px 294px;
+}
+img {
+    height: 40px;
+    width: 185px;
+    border: .1px solid #222;
+    border-radius: 4px;
+}
+img:hover {
+    box-shadow: 0 0 2px 1px white;
+}
+span {
+    margin: 10px;
+}
+#word {
+    letter-spacing: 1.5px;
+}
+footer {
+    text-align: center;
+    left: 0;
+    bottom: 0; 
+    background-color: #222;
+    border: 1px solid black;
+    width: 100%;
+    color: white;
+    padding: 5px;
+}
+#lettersGuessed {
+    height: 58px;
+}
+li {
+    display: inline;
+}
+canvas {
+    width: 100%;
+    height: 750px;
+}
+a {
+    color: skyblue;
+}
+a:hover {
+    color: deepskyblue;
+    text-decoration: none;
+}
+a:active {
+    color: blueviolet;
+    text-decoration: none;
+}

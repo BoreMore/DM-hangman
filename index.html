@@ -1,0 +1,101 @@
+<!-- begun on 7/22/18; finished on 7/24/18 -->
+<!doctype html>
+<html>
+<head>
+    <title>Hangman</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="nav navbar-inverse">
+        <h1 class="text-center"><span><a href="http://www.depechemode.com/" target="_blank"><img src="assets/images/DMLogoNav.jpg" alt="depeche mode website"></a></span>Hangman</h1>
+    </nav>
+    <div class="container">
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-6 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Drawing</div>
+                    <div class="panel-body">
+                        <canvas id="myCanvas" width="500px" height="750px"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-xs-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Guesses Left</div>
+                    <div class="panel-body" id="guessesLeft">
+                        10
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-xs-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Wins</div>
+                    <div class="panel-body" id="wins">
+                        0
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-xs-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Losses</div>
+                    <div class="panel-body" id="losses">
+                        0
+                    </div>
+                </div>    
+            </div>
+            <div class="col-md-6 col-xs-12">
+
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Word</div>
+                    <div class="panel-body" id="word">
+                        -----
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12">
+
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Letters Guessed</div>
+                    <div class="panel-body" id="lettersGuessed">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Album Hint</div>
+                    <div class="panel-body" id="hint">
+                       
+                    </div>
+                    <div class="panel-body" id="backgroundImg">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12">
+
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <button id="newGameButton" type="button" class="btn btn-lg btn-block">Click here to play again!</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <footer>
+        <br>
+        <p>Website made by <a href="https://github.com/BoreMore" target="_blank">BoreMore</a></p>
+        <p>All songs belong to <a href="http://www.depechemode.com/" target="_blank">Depeche Mode</a></p>
+    </footer>
+    <script type="text/javascript" src="assets/javascript/script.js"></script>
+</body>
+</html>
