@@ -143,44 +143,9 @@ function failure10() {
     ctx.moveTo(350, 187);
     ctx.lineTo(356, 181);
     ctx.stroke();
-    /*//clear left arm
-    ctx.clearRect(274, 201, 75, 99);
-    ctx.clearRect(274, 199, 5, 5);
-    //clear right arm
-    ctx.clearRect(351, 201, 75, 99);
-    ctx.clearRect(400, 199, 30, 30);
-    //left arm choking
-    ctx.beginPath();
-    ctx.moveTo(350, 300);
-    ctx.lineTo(287, 235);
-    ctx.lineTo(350, 200);
-    ctx.stroke();
-    //right arm choking
-    ctx.beginPath();
-    ctx.moveTo(350, 300);
-    ctx.lineTo(413, 235);
-    ctx.lineTo(350, 200);
-    ctx.stroke();*/
 }
-// extended songs
-/*var words = {
-    speakAndSpell: ["I SOMETIMES WISH I WAS DEAD", "BOYS SAY GO", "NODISCO", "WHAT'S YOUR NAME", "PHOTOGRAPHIC", "BIG MUFF", "ANY SECOND NOW", "DREAMING OF ME"],
-    aBrokenFrame: ["MONUMENT", "NOTHING TO FEAR", "SATELLITE", "THE MEANING OF LOVE", "A PHOTOGRAPH OF YOU", "SHOULDNT HAVE DONE THAT"],
-    constructionTimeAgain: ["MORE THAN A PARTY", "SHAME", "THE LANDSCAPE IS CHANGING", "TOLD YOU SO", "AND THEN", "GET THE BALANCE RIGHT", "WORK HARD"],
-    someGreatReward: ["LIE TO ME", "IT DOESNT MATTER", "STORIES OF OLD", "SOMEBODY", "IF YOU WANT"],
-    blackCelebration: ["FLY ON THE WINDSCREEN", "A QUESTION OF LUST", "SOMETIMES", "IT DOESNT MATTER TWO", "HERE IS THE HOUSE", "WORLD FULL OF NOTHING", "DRESSED IN BLACK", "NEW DRESS", "BLACK DAY", "BUT NOT TONIGHT", "ITS CALLED A HEART", "SHAKE THE DISEASE"],
-    musicForTheMasses: ["THE THINGS YOU SAID", "LITTLE 15", "I WANT YOU NOW", "TO HAVE AND TO HOLD", "NOTHING", "PLEASURE, LITTLE TREASURE", "PIMPF", "ROUTE 66"],
-    violator: ["HALO", "WAITING FOR THE NIGHT", "POLICY OF TRUTH", "BLUE DRESS", "CLEAN", "DANGEROUS", "HAPPIEST GIRL"],
-    songsOfFaithAndDevotion: ["CONDEMNATION", "MERCY IN YOU", "JUDAS", "GET RIGHT WITH ME", "RUSH", "HIGHER LOVE", "MY JOY"],
-    ultra: ["THE LOVE THIEVES", "HOME", "SISTER OF NIGHT", "FREESTATE", "THE BOTTOM LINE", "INSIGHT", "PAINKILLER", "SLOWBLOW", "SURRENDER"],
-    exciter: ["SHINE", "THE SWEETEST CONDITION", "THE DEAD OF NIGHT", "LOVETHEME", "COMATOSE", "BREATHE", "EASY TIGER", "I AM YOU", "GOODNIGHT LOVERS"],
-    playingTheAngel: ["THE SINNER IN ME", "MACRO", "I WANT IT ALL", "NOTHING'S IMPOSSIBLE", "INTROSPECTRE", "DAMAGED PEOPLE", "LILIAN", "THE DARKEST STAR"],
-    soundsOfTheUniverse: ["IN CHAINS", "LITTLE SOUL", "IN SYMPATHY", "PEACE", "COME BACK", "PERFECT", "JEZEBEL", "CORRUPT", "THE SUN AND THE MOON AND THE STARS"],
-    deltaMachine: ["HEAVEN", "SECRET TO THE END", "MY LITTLE UNIVERSE", "SLOW", "BROKEN", "THE CHILD INSIDE", "SOFT TOUCH", "ALONE", "GOODBYE"],
-    spirit: ["THE WORST CRIME", "SCUM", "YOU MOVE", "ETERNAL", "POISON HEART", "SO MUCH LOVE", "POORMAN", "FAIL"]
-};*/
 
-var words = { // 4 per album for now
+var words = {
     speakAndSpell: ["NEW LIFE", "PUPPETS", "JUST CAN'T GET ENOUGH", "TORA! TORA! TORA!"],
     aBrokenFrame: ["LEAVE IN SILENCE", "SEE YOU", "THE SUN AND THE RAINFALL", "MY SECRET GARDEN"],
     constructionTimeAgain: ["PIPELINE", "EVERYTHING COUNTS", "TWO MINUTE WARNING", "LOVE, IN ITSELF"],
